@@ -1,0 +1,30 @@
+{
+  "name": "ts-template",
+  "version": "0.1.0",
+  "description": "A template repo for new typescript projects",
+  "type": "module",
+  "packageManager": "pnpm@8.2.0",
+  "exports": "./dist/index.js",
+  "main": "./dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "typescript",
+    "template"
+  ],
+  "devDependencies": {
+    "@zmrl/eslint-config": "^6.0.0",
+    "eslint": "^8.38.0",
+    "pnpm": "^8.2.0",
+    "prettier": "^2.8.7",
+    "typescript": "^5.0.4",
+    "vitest": "^0.30.1"
+  },
+  "scripts": {
+    "prepare": "tsc",
+    "test": "vitest"
+  },
+  "author": "zmrl",
+  "license": "MIT"
+}
